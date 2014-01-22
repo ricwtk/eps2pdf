@@ -1,6 +1,6 @@
 {
-  "name": "Hello World!",
-  "description": "My first Chrome App.",
+  "name": "EPS2PDF Converter",
+  "description": "Convert eps files to pdf using latex engine",
   "version": "0.1",
   "app": {
     "background": {

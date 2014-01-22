@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
+	  <style>
+	  	#filelocation {
+			position: fixed;
+			top: 0px;
+			left: 5px;
+			width: 185px;
+	  	}
+		input#filename {
+			width: 145px;
+		}
+		button#browse {
+			width: 30px;
+		}
+	  	#buttons {
+		  position: fixed;
+		  right: 5px;
+		  top: 0px;
+		  width: 100px;
+		  height: 70px;
+	  	}
+		button#pref, button#convert{
+			width: 100px;
+		}
+		button#convert{
+			height: 49px;
+		}
+		button#pref{
+			height: 14px;
+		}
+	  </style>
   </head>
   <body>
-    <div>
+    <div id="filelocation">
 		EPS file location(s):<br>
-		<input type="text"> <button>...</button>
+		<input type="text" id="filename"> <button id="browse">...</button>
 	</div>
-	<div>
-		<button>Preference</button>
-		<button>Convert</button>
+	<div id="buttons">
+		<button id="pref">Preference</button> <br>
+		<button id="convert">Convert</button>
 	</div>
   </body>
 </html>
