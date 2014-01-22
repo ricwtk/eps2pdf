@@ -2,44 +2,45 @@
 <html>
   <head>
 	  <style>
-	  	#filelocation {
-			position: fixed;
-			top: 0px;
-			left: 5px;
-			width: 185px;
-	  	}
-		input#filename {
-			width: 145px;
-		}
-		button#browse {
-			width: 30px;
-		}
+	    body {
+			margin: 0;
+	    }
 	  	#buttons {
-		  position: fixed;
-		  right: 5px;
-		  top: 0px;
-		  width: 100px;
-		  height: 70px;
-	  	}
-		button#pref, button#convert{
-			width: 100px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		  	left: 0px;
+		 	top: 0px;
+			width: 100%;
+			background-color: #eeeeee;
 		}
-		button#convert{
-			height: 49px;
+		table {
+			width: 285px;
+			text-align: center;
+			padding: 0;
+			margin: 0;
 		}
-		button#pref{
-			height: 14px;
+		#menu {
+			width: 30px;
+			text-align: center;
+		}
+		#separator {
+			width: 5px;
 		}
 	  </style>
   </head>
   <body>
+  	<div id="buttons">
+		<table>
+			<tr>
+				<td id="menu">&#9776;</td>
+				<td id="convert">Convert</td>
+			</tr>
+		</table>
+  	</div>
     <div id="filelocation">
 		EPS file location(s):<br>
 		<input type="text" id="filename"> <button id="browse">...</button>
 	</div>
-	<div id="buttons">
-		<button id="pref">Preference</button> <br>
-		<button id="convert">Convert</button>
-	</div>
+	
   </body>
 </html>
