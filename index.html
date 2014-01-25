@@ -6,12 +6,12 @@
 			margin: 0;
 	    }
 	  	#buttons {
-			padding-top: 10px;
-			padding-bottom: 10px;
+			padding: 0;
 		  	left: 0px;
 		 	top: 0px;
 			width: 100%;
 			background-color: #eeeeee;
+			font-size: 15px;
 		}
 		table {
 			width: 285px;
@@ -22,24 +22,43 @@
 		#menu {
 			width: 30px;
 			text-align: center;
+			cursor: pointer;
+		}
+		#convert {
+			cursor: pointer;
 		}
 		#separator {
-			width: 5px;
+			height: 3px;
+		}
+		#filelocation {
+			padding: 10px;
+		}
+		#browse {
+			position: absolute;
+			width: 40px;
+			right: 10px;
+		}
+		#filename {
+			width: 230px;
 		}
 	  </style>
   </head>
   <body>
   	<div id="buttons">
 		<table>
+			<tr><td id="separator"> </td></tr>
 			<tr>
-				<td id="menu">&#9776;</td>
+				<td id="menu" onclick="">&#9776;</td>
 				<td id="convert">Convert</td>
 			</tr>
+			<tr><td id="separator"> </td></tr>
 		</table>
   	</div>
+	
     <div id="filelocation">
 		EPS file location(s):<br>
-		<input type="text" id="filename"> <button id="browse">...</button>
+		<input type="text" id="filename"> <button id="browse">...</button> <br>
+		<input type="text" id="filename"> <button id="browse">...</button> <br>
 	</div>
 	
   </body>
