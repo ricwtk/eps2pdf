@@ -39,28 +39,19 @@
 			width: 230px;
 		}
 		
-		input#togglemenu {
-		/*	position: fixed;
-			visibility: hidden;*/
-		}
-		
-		label {
-			display: block;
+		.clickable {
 			cursor: pointer;
 		}
 	  </style>
 	  
   </head>
-  <body>
-  
-	<input type="checkbox" id="togglemenu" checked="checked"></input>
-	
+  <body>	
   	<div id="buttons">
 		<table>
 			<tr><td id="separator"> </td></tr>
 			<tr>
-				<td id="menu"><label for="togglemenu">&#9776;</label></td>
-				<td id="convert">Convert</td>
+				<td class="clickable" id="menu">&#9776;</td>
+				<td class="clickable" id="convert">Convert</td>
 			</tr>
 			<tr><td id="separator"> </td></tr>
 		</table>
