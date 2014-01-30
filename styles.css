@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	height: 100%;
 }
 
 #buttons {
@@ -68,16 +69,19 @@ table {
 	background-color: #f9f9f9;
 }
 
-h1 {
+#title {
 	display: block;
 	text-align: center;
 	padding: 10px;
 	margin: 0;
-	font-weight: normal;
 	border-right: 1px solid #f9f9f9;
 }
 
-#buttons, h1 {
+#buttons, #title {
 	background-color: #eeeeee;
 	font-size: 15px;
+}
+
+#menucontent {
+	padding: 10px;
 }
