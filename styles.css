@@ -4,7 +4,7 @@ body {
 
 #maindiv {
 	position: absolute;
-	left: 0px;
+	left: -270px;
 	top: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -12,9 +12,10 @@ body {
 }
 
 #buttons {
+	position: relative;
 	padding: 0;
-	left: 0px;
-	top: 0px;
+	left: 270px;
+	top: -300px;
 	width: 100%;
 	background-color: #eeeeee;
 	font-size: 15px;
@@ -39,7 +40,10 @@ table {
 }
 
 #filelocation {
+	position: relative;
 	padding: 10px;
+	left: 270px;
+	top: -300px;
 }
 
 #browse {
@@ -54,4 +58,11 @@ table {
 
 .clickable {
 	cursor: pointer;
+}
+
+#menudiv {
+	padding: 0;
+	margin: 0;
+	width: 270px;
+	height: 300px;
 }
