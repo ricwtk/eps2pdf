@@ -22,11 +22,8 @@
 		#menu {
 			width: 30px;
 			text-align: center;
-			cursor: pointer;
 		}
-		#convert {
-			cursor: pointer;
-		}
+		#convert {	}
 		#separator {
 			height: 3px;
 		}
@@ -41,14 +38,28 @@
 		#filename {
 			width: 230px;
 		}
+		
+		input#togglemenu {
+		/*	position: fixed;
+			visibility: hidden;*/
+		}
+		
+		label {
+			display: block;
+			cursor: pointer;
+		}
 	  </style>
+	  
   </head>
   <body>
+  
+	<input type="checkbox" id="togglemenu" checked="checked"></input>
+	
   	<div id="buttons">
 		<table>
 			<tr><td id="separator"> </td></tr>
 			<tr>
-				<td id="menu" onclick="">&#9776;</td>
+				<td id="menu"><label for="togglemenu">&#9776;</label></td>
 				<td id="convert">Convert</td>
 			</tr>
 			<tr><td id="separator"> </td></tr>
@@ -61,5 +72,6 @@
 		<input type="text" id="filename"> <button id="browse">...</button> <br>
 	</div>
 	
+	<script type="text/javascript" src="action.js"> </script>
   </body>
 </html>
