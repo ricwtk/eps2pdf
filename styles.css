@@ -1,24 +1,24 @@
 body {
 	margin: 0;
+	padding: 0;
 }
 
 #maindiv {
 	position: absolute;
 	left: -270px;
-	top: 0px;
-	margin: 0px;
-	padding: 0px;
+	top: 0;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 
 #buttons {
 	position: relative;
+	margin: 0;
 	padding: 0;
 	left: 270px;
 	top: -300px;
 	width: 100%;
-	background-color: #eeeeee;
-	font-size: 15px;
 }
 
 table {
@@ -65,4 +65,19 @@ table {
 	margin: 0;
 	width: 270px;
 	height: 300px;
+	background-color: #f9f9f9;
+}
+
+h1 {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	font-weight: normal;
+	border-right: 1px solid #f9f9f9;
+}
+
+#buttons, h1 {
+	background-color: #eeeeee;
+	font-size: 15px;
 }
