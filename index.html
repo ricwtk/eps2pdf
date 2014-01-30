@@ -20,7 +20,7 @@
 				</tr>
 				<tr>
 					<td></td>
-					<td id="locate">Locate</td>
+					<td class="clickable button" id="locate">Locate</td>
 				</tr>
 			</table>
 		</div>
@@ -39,8 +39,12 @@
 	
     <div id="filelocation">
 		EPS file location(s):<br>
-		<input type="text" id="filename"> <button id="browse">...</button> <br>
-		<input type="text" id="filename"> <button id="browse">...</button> <br>
+		<table id="filetable">
+			<tr>
+				<td><input type="text" id="filename"></td>
+				<td class="clickable button">...</td>
+			</tr>
+		</table>
 	</div>
 	</div>
   </body>

@@ -92,13 +92,18 @@ table#menutable {
 	padding: 10px;
 }
 
-#locate {
+.button {
 	text-align: center;
 	padding: 5px;
 	background-color: #eeeeee;
-	cursor: pointer;
 }
 
-#locate:hover {
+.button:hover {
 	background-color: #fdfdfd;
+}
+
+#filetable {
+	padding: 0;
+	margin: 0;
+	width: 280px;
 }
