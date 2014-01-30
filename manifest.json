@@ -1,5 +1,6 @@
 {
   "name": "EPS2PDF Converter",
+  "manifest_version": 2,
   "description": "Convert eps files to pdf using latex engine",
   "version": "0.1",
   "app": {
