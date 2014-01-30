@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+}
+
+#maindiv {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#buttons {
+	padding: 0;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color: #eeeeee;
+	font-size: 15px;
+}
+
+table {
+	width: 285px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#menu {
+	width: 30px;
+	text-align: center;
+}
+
+#convert {	}
+
+#separator {
+	height: 3px;
+}
+
+#filelocation {
+	padding: 10px;
+}
+
+#browse {
+	position: absolute;
+	width: 40px;
+	right: 10px;
+}
+
+#filename {
+	width: 230px;
+}
+
+.clickable {
+	cursor: pointer;
+}
