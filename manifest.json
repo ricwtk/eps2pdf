@@ -7,5 +7,8 @@
     "background": {
       "scripts": ["background.js"]
     }
-  }
+  },
+  "permissions": [	{"fileSystem": ["write", "retainEntries", "directory"]},
+					"<all_urls>"
+					]
 }
